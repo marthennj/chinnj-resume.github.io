@@ -1,0 +1,205 @@
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Calibri, sans-serif;
+    background-color: #fff;
+
+}
+header h1 {
+    font-size: 36px;
+}
+
+header p {
+    font-size: 18px;
+}
+header {
+    background-color: #f2f3f5;
+    color: #121212;
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 20px;
+    border-bottom: 3px solid #007bff;
+}
+header .editor {
+    float: center;
+    margin-left: 440px;
+    margin-top: -27px;
+    font-family: Calibri, sans-serif;
+    font-weight: lighter;
+
+}
+header .developer{
+    font-family: Calibri, sans-serif;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+/* Style the navigation bar */
+.navbar {
+     /* Background color for the navbar */
+    float: right;
+    margin-top: -60px;
+    color: #333;
+}
+
+/* Style the navigation links */
+.navbar a {
+    float: left; /* Make the links float left to display them inline */
+    display: block; /* Display links as blocks */
+    color: #333; /* Text color for the links */
+    text-align: center; /* Center-align text within the links */
+    padding: 14px 16px; /* Add padding for spacing */
+    text-decoration: none; /* Remove underlines from links */
+}
+
+/* Change the link color when hovered over */
+.navbar a:hover {
+    background-color: #007bff; /* Change the background color on hover */
+    color: rgb(246, 243, 243); /* Change the text color on hover */
+}
+.resume{
+    font-size: 35px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+section h2 {
+    font-size: 28px;
+    clear: right;
+}
+
+/* Style paragraphs and unordered lists within sections */
+section p,
+section ul {
+    font-size: 18px;
+    float: right;
+    margin-top: -70px; /* Adjust margin-top as needed */
+    text-align: left;
+    width:50%; /* Adjust the width based on your layout */
+}
+ul {
+    margin-right: -40px; /* Adjust the value for your desired indent */
+    font-family: Calibri, sans-serif;
+    font-weight: lighter;
+}
+
+#skill1{
+    height: 425px;
+}
+#skill2{
+    height: 270px;
+}
+#skill3{
+    height: 165px;
+}
+#skill4{
+    height: 90px;
+}
+#experience1 {
+    height: 510px;
+}
+#experience2{
+    height: 390px;
+}
+#experience3{
+    height: 560px;
+}
+#experience4{
+    height: 250px;
+}
+#education1 {
+    height: 355px ;
+}
+#education2 {
+    height: 200px ;
+}
+
+.pic-div{
+    height: 400px;
+    width: 1000px;
+}
+.demo-pics1{
+    float: right;
+    margin-top: -150px;
+    height: 300px;
+    width: 400px;
+}
+.demo-pics2{
+    float: right;
+    margin-top: -300px;
+    height: 300px;
+    width: 400px;
+    background-color: #007bff;
+}
+.demo-pics3{
+    float: right;
+    margin-top: -250px;
+    height: 300px;
+    width: 400px;
+    background-color: #007bff;
+}
+.contact-form{
+    float: right;
+    margin-top: -180px;
+}
+/* Add CSS to style the two-column layout */
+.contact-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Style other form elements and labels as needed */
+label {
+    font-weight: bold;
+    
+}
+input[type="text"]{
+    height: 35px;
+}
+textarea {
+    height: 120px;
+    width: 100%;
+}
+/* Add CSS styles for the submit button */
+input[type="submit"] {
+    margin-top: 70px;
+    margin-left: 20px;
+    background-color: #007bff; /* Background color */
+    color: #fff; /* Text color */
+    padding: 15px 30px; /* Padding around the button text */
+    border: none; /* Remove the default button border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to a hand pointer on hover */
+    font-size: 16px; /* Font size */
+}
+
+/* Change button color on hover */
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Change the background color on hover */
+}
+
+footer {
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 0;
+    clear: both;
+}
